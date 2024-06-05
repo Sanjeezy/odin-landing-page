@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body{ 
+    margin: 0px;
+    padding: 0px;
+
+/*Header Styling*/
+}
+.header-section {
+    background-color: #1F2937;
+    height: 50vh;
+}
+.header-top-container, .header-middle-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.header-middle-container {
+    margin-top: 50px;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+.header-link-box {
+    display: flex;
+}
+
+.header-link {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hero-box{
+    display: flex;
+    width: 50vw;
+}
