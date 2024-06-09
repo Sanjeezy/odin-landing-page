@@ -16,7 +16,9 @@ body{
 }
 .header-section {
     background-color: #1F2937;
-    height: 50vh;
+    height: auto;
+    padding-bottom: 30px;
+    
 }
 .header-top-container, .header-middle-container {
     margin-left: 10vw;
@@ -41,4 +43,15 @@ body{
 .hero-box{
     display: flex;
     width: 50vw;
+    height: auto;
+}
+
+.hero-main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.header-button{
+    background-color: blue;
 }
