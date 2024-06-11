@@ -11,6 +11,7 @@
 body{ 
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
 
 /*Header Styling*/
 }
@@ -73,7 +74,9 @@ body{
 
 /*Random Information Styling*/
 .random-information-section{
-    margin-top: 20px;}
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .random-information-header{
     display: flex;
@@ -103,4 +106,28 @@ body{
 .info-img{
     border-radius: 5px;
     border: 2px solid blue
+}
+
+/*Quote Section*/
+
+.quote-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quote-container{
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote-text{
+    font-style: italic;
+}
+
+.quote-author-wrapper{
+    display: flex;
+    justify-content: right;
+    width: 90%
 }
