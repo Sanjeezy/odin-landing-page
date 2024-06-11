@@ -42,16 +42,30 @@ body{
 }
 .hero-box{
     display: flex;
-    width: 50vw;
     height: auto;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 50px;
+    color: #F9FAF8;
 }
 
 .hero-main-text{
-    color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
     
 }
 .header-button{
-    background-color: blue;
+    background-color: #3882F6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color:  #F9FAF8;
+    width: 15vw;
+
+
 }
