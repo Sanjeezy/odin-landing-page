@@ -26,6 +26,8 @@ button{
 }
 /*Header Styling*/
 .header-section {
+    display:flex;
+    flex-direction: column;
     background-color: #1F2937;
     height: auto;
     padding-bottom: 30px;
@@ -35,8 +37,12 @@ button{
     margin-left: 10vw;
     margin-right: 10vw;
 }
-
+.hero-text{
+    display: flex;
+    justify-content: center;
+}
 .header-middle-container {
+    display: flex;
     margin-top: 50px;
 }
 .top-bar {
